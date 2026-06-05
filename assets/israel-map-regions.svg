@@ -1,9 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL was not found on this server.</p>
-<hr>
-<address>Apache/2.4.29 (Ubuntu) Server at simplemaps.com Port 80</address>
-</body></html>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <!-- Israel Districts Map - simplified geographic shapes -->
+  <!-- Northern District -->
+  <path data-state="NO" d="M60,20 L140,20 L150,40 L145,60 L130,70 L120,80 L100,85 L80,80 L65,65 L55,50 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="102" y="52" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">NO</text>
+
+  <!-- Haifa District -->
+  <path data-state="HA" d="M65,65 L80,80 L100,85 L120,80 L130,70 L125,95 L115,105 L90,108 L70,100 L60,85 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="95" y="90" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">HA</text>
+
+  <!-- Central District -->
+  <path data-state="CE" d="M70,100 L90,108 L115,105 L125,95 L128,120 L120,135 L100,140 L80,135 L68,120 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="98" y="122" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">CE</text>
+
+  <!-- Tel Aviv District -->
+  <path data-state="TA" d="M68,120 L80,135 L100,140 L120,135 L122,155 L110,162 L88,162 L72,155 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="97" y="148" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">TA</text>
+
+  <!-- Jerusalem District -->
+  <path data-state="JM" d="M120,135 L128,120 L145,125 L150,145 L140,165 L122,155 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="136" y="148" text-anchor="middle" fill="white" font-size="9" font-family="sans-serif">JM</text>
+
+  <!-- Southern District -->
+  <path data-state="SO" d="M72,155 L88,162 L110,162 L122,155 L140,165 L150,190 L140,230 L120,270 L100,300 L80,270 L60,230 L50,190 Z" fill="#2a2a45" stroke="#444" stroke-width="1"/>
+  <text x="100" y="230" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif">SO</text>
+</svg>
