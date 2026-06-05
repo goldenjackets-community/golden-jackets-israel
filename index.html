@@ -521,10 +521,17 @@
   <text class="label" x="120" y="550">SO</text>
 
     <!-- Tel Aviv Pin with Radar -->
-  <circle class="radar-pulse" cx="98" cy="288" r="4" fill="none" stroke="#FFD700" stroke-width="2"/>
-  <circle class="radar-pulse2" cx="98" cy="288" r="4" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <circle cx="98" cy="288" r="4" fill="none" stroke="#FFD700" stroke-width="2">
+    <animate attributeName="r" from="4" to="20" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.8" to="0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="98" cy="288" r="4" fill="none" stroke="#FFD700" stroke-width="1.5">
+    <animate attributeName="r" from="4" to="20" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.6" to="0" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="98" cy="288" r="5" fill="#FFD700"/>
   <circle cx="98" cy="288" r="2.5" fill="#151528"/>
+  <text x="100" y="278" text-anchor="middle" font-size="12" font-family="sans-serif">📍</text>
 
 </svg></div>
     </div>
