@@ -33,5 +33,5 @@
   <!-- Tel Aviv Pin -->
   <circle cx="98" cy="272" r="8" fill="#FFD700" opacity="0.3"/>
   <circle cx="98" cy="272" r="4" fill="#FFD700"/>
-  <text x="98" y="272" text-anchor="middle" font-size="14" font-family="sans-serif">📍</text>
+  <text x="98" y="275" text-anchor="middle" font-size="14" font-family="sans-serif">📍</text>
 </svg>
