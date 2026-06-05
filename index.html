@@ -489,7 +489,7 @@
     <div class="map-container">
       <!-- Connection lines between pins -->
       <img src="assets/israel-map-regions.svg" alt="Israel Map" style="max-width:700px;width:100%;height:auto;margin:0 auto;display:block;">
-      <div class="map-pin" style="top:37%;left:51%" onclick="filterByState('RM')"><span class="pin-icon">📍</span><span class="pin-count gold-count">1</span></div>
+      <div class="map-pin" style="top:37%;left:51%" onclick="filterByState('TA')"><span class="pin-icon">📍</span><span class="pin-count gold-count">1</span></div>
     </div>
     
   </section>
@@ -501,33 +501,24 @@
     <div class="filter-bar">
       <label>Filter by Region:</label>
       <select id="stateFilter" onchange="filterMembers()">
-        <option value="AP">Arica y Parinacota</option>
-        <option value="TA">Tarapacá</option>
-        <option value="AN">Antofagasta</option>
-        <option value="AT">Atacama</option>
-        <option value="CO">Coquimbo</option>
-        <option value="VS">Valparaíso</option>
-        <option value="RM">Metropolitana (Santiago)</option>
-        <option value="OH">O'Higgins</option>
-        <option value="ML">Maule</option>
-        <option value="NB">Ñuble</option>
-        <option value="BI">Biobío</option>
-        <option value="AR">Araucanía</option>
-        <option value="LR">Los Ríos</option>
-        <option value="LL">Los Lagos</option>
-        <option value="AI">Aysén</option>
-        <option value="MA">Magallanes</option>
+        <option value="All">All</option>
+        <option value="CE">Central</option>
+        <option value="HA">Haifa</option>
+        <option value="JM">Jerusalem</option>
+        <option value="NO">Northern</option>
+        <option value="SO">Southern</option>
+        <option value="TA">Tel Aviv</option>
                                                                                                                                                                                                                               </select>
       <span class="total">Total: 1 members</span>
     </div>
 
     <div class="members-grid">
 
-      <div class="member-card founder" data-state="RM">
+      <div class="member-card founder" data-state="TA">
         <span class="card-number">#1</span>
         <img src="assets/members/eyal-tamir.jpg" alt="Eyal Tamir" class="photo">
         <h3>Eyal Tamir</h3>
-        <div class="location">Santiago, Región Metropolitana, Israel</div>
+        <div class="location">Tel Aviv, Israel</div>
         <div class="tags">
           <span class="tag">Golden Jacket</span>
           <span class="tag">Chapter Lead</span>
@@ -566,7 +557,7 @@
         <span style="font-size:2em;">🇮🇱</span>
         <p style="color:var(--gold);font-size:1.1em;font-weight:700;margin:12px 0 6px;">AWS Community Day Israel</p>
         <p style="color:var(--text-muted);font-size:0.85em;">📅 May 30, 2026</p>
-        <p style="color:var(--text-muted);font-size:0.8em;margin-top:8px;">Santiago, Israel</p>
+        <p style="color:var(--text-muted);font-size:0.8em;margin-top:8px;">Tel Aviv, Israel</p>
         <a href="https://aws.amazon.com/events/summits/" target="_blank" style="color:var(--gold);font-size:0.8em;text-decoration:none;margin-top:8px;display:inline-block;">Learn more →</a>
       </div>
       <div style="background:rgba(255,215,0,0.08);border:1px solid rgba(255,215,0,0.2);border-radius:12px;padding:30px 24px;width:260px;text-align:center;">
@@ -748,10 +739,10 @@
         <input type="email" id="sponsorEmail" placeholder="Email" style="width:100%;padding:10px;margin-bottom:8px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:inherit;">
         <select id="sponsorTier" style="width:100%;padding:10px;margin-bottom:8px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:inherit;">
           <option value="" disabled selected>Interested in...</option>
-          <option value="Founding Sponsor ($500.000 CLP/yr)">🏆 Founding Sponsor — $500.000 CLP/yr</option>
-          <option value="Gold ($350.000 CLP/yr)">🥇 Gold — $350.000 CLP/yr</option>
-          <option value="Silver ($200.000 CLP/yr)">🥈 Silver — $200.000 CLP/yr</option>
-          <option value="Bronze ($100.000 CLP/yr)">🥉 Bronze — $100.000 CLP/yr</option>
+          <option value="Founding Sponsor (₪15,000/yr)">🏆 Founding Sponsor — ₪15,000/yr</option>
+          <option value="Gold (₪10,000/yr)">🥇 Gold — ₪10,000/yr</option>
+          <option value="Silver (₪5,000/yr)">🥈 Silver — ₪5,000/yr</option>
+          <option value="Bronze (₪2,500/yr)">🥉 Bronze — ₪2,500/yr</option>
           <option value="One-time Support">🎁 One-time Support (event, merch, meetup)</option>
           <option value="Other">💬 Other / Let's talk</option>
         </select>
@@ -814,7 +805,7 @@
       <label>Full Name</label>
       <input type="text" id="applyName" placeholder="e.g. Eyal Tamir" required>
       <label>City</label>
-      <input type="text" id="applyCity" placeholder="e.g. Santiago (country is added automatically)">
+      <input type="text" id="applyCity" placeholder="e.g. Tel Aviv (country is added automatically)">
       <label>State</label>
       <select id="applyState">
         <option value="">Select region...</option>
@@ -824,7 +815,7 @@
         <option value="WM">West Midlands</option>
         <option value="EM">East Midlands</option>
         <option value="EE">East of Israel</option>
-        <option value="RM">Santiago</option>
+        <option value="TA">Tel Aviv</option>
         <option value="SE">South East</option>
         <option value="SW">South West</option>
         <option value="WAL">Wales</option>
