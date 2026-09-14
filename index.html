@@ -942,8 +942,6 @@
       <br>
       <label>Full Name</label>
       <input type="text" id="applyName" placeholder="e.g. Eyal Tamir" required>
-      <label>City</label>
-      <input type="text" id="applyCity" placeholder="e.g. Tel Aviv (country is added automatically)">
       <label>Region / District</label>
       <select id="applyState" style="width:100%;padding:10px 14px;margin-bottom:10px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:0.9em;font-family:inherit;">
         <option value="">Select region...</option>
@@ -1188,7 +1186,6 @@ async function submitApplication() {
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
         name: document.getElementById('applyName').value,
-        city: document.getElementById('applyCity').value,
         state: document.getElementById('applyState').value,
         date: document.getElementById('applyDate').value,
         linkedin: document.getElementById('applyLinkedin').value,
